@@ -9,4 +9,12 @@
 """
 
 if __name__ == '__main__':
-    pass
+	for n in range(1, 100):
+	    if n % 15 == 0:
+	        print('Zip-Zap')
+	    elif n % 5 == 0:
+	        print('Zap')
+	    elif n % 3 == 0:
+	        print('Zip')
+	    else: 
+	        print(n) 

@@ -10,7 +10,7 @@ from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
 
-TIMEOUT = 30
+TIMEOUT = 60
 URL = 'https://python10.online/week4/api/'
 SMS_GATE = '+12059463160'
 
